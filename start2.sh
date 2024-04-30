@@ -27,7 +27,7 @@ fi
 current_folder=$(pwd)
 model_folder=${current_folder}/models/checkpoints-real-folder
 # Download and save checkpoint
-wget  -O ${current_folder}/models/checkpoints/juggernautXL_juggernautxX.safetensors https://civitai.com/api/download/models/456194
+# wget  -O ${current_folder}/models/checkpoints/juggernautXL_juggernautxX.safetensors https://civitai.com/api/download/models/456194
 wget  -O ${current_folder}/models/checkpoints/realisticVisionV60B1_v60B1VAE.safetensors https://civitai.com/api/download/models/245598
 
 # Download and save LoRAs
